@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import useLocalStorageState from 'use-local-storage-state'
+
+/*
+ * Note: ALL_CAPS constant names have no special meaning in JavaScript; they’re a
+ * convention that tells other developers "this data will never change after being
+ * defined here”.
+ */
+// const DATA = [];
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

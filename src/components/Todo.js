@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import usePrevious from './usePrevious'
-import { PencilIcon } from '@heroicons/react/solid'
 
 export default function Todo (props) {
 

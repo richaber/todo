@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react'
 import Form from './components/Form'
 import FilterButton from './components/FilterButton'
 import Todo from './components/Todo'
-import { nanoid } from 'nanoid'
 import { v4 as uuidv4 } from 'uuid'
 import usePrevious from './components/usePrevious'
 import useLocalStorageState from 'use-local-storage-state'
@@ -157,7 +156,6 @@ export default function App (props) {
           <div className="flex flex-col pt-8 lg:w-2/5 sm:w-3/5 w-11/12 gap-4">
 
             <ul
-              role="list"
               className="list-none"
               aria-labelledby="list-heading"
             >
